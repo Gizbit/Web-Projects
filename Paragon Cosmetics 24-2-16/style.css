@@ -1,0 +1,34 @@
+.carousel-inner > .item > img {
+      height: 600px;
+      width: 800px;
+      margin: auto;
+  }
+
+.item h3 {
+	color: black;
+}
+
+#myCarousel {
+  	margin-top: 100px;
+
+  }
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
