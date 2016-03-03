@@ -1,0 +1,28 @@
+section {
+	height: 750px;
+	background-image: url("../img/skincare_background.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: white;	
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 25px;		
+}
+
+section .row {
+	position: relative;
+	top: 15px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+figure img {
+	height: 200px;
+	width: 350px;
+	border: 4px solid Bisque;
+	border-radius: 10px;
+}
+
+.center {
+	text-align: center;
+}

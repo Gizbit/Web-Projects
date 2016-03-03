@@ -1,0 +1,70 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 5px;
+}
+
+header li {
+  display: inline;  
+  padding: 0 20px;
+  margin: 0;  
+}
+
+header a, a:hover {
+  text-decoration: none;
+}
+
+.jumbotron {
+  height: 550px;
+  background-image: url("img/jumbotron.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  color: white;  
+  border-radius: 10px;
+  position: relative;
+  top: 120px;
+}
+
+footer {
+  font-size: 15px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 40px;
+  height: 40px;
+}
+

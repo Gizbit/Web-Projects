@@ -1,0 +1,20 @@
+section {
+	height: 750px;
+	background-image: url("../img/contact_background.jpeg");
+	background-size: cover;
+	background-position: center;	
+}
+
+section .contact_details {
+	position: relative;
+	top: 20px;	
+	color: white;	
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.4);	
+}
+
+form {
+	margin-top: 75px;
+}
